@@ -57,7 +57,7 @@ layout: default
                       {% for org in orgs %}
                       <div class="col-md-2">
                           <a class="thumbnail" data-mapid="{{ org[0] }}" href="{{ org[1].link }}">
-                              <img class="logo-300" src="/{{site.github.url}}/assets/images/logos/{{ org[0] }}300.jpg" alt="{{ org[1].name }}">
+                              <img class="logo-300" src="{{site.github.url}}/assets/images/logos/{{ org[0] }}300.jpg" alt="{{ org[1].name }}">
                           </a>
                       </div>
                       {% endfor %}
@@ -68,7 +68,7 @@ layout: default
                       {% for org in orgs %}
                       <div class="col-md-12 col-lg-6">
                           <a class="thumbnail" data-mapid="{{ org[0] }}" href="{{ org[1].link }}">
-                              <img class="logo-300" src="/{{site.github.url}}/assets/images/logos/{{ org[0] }}300.jpg" alt="{{ org[1].name }}">
+                              <img class="logo-300" src="{{site.github.url}}/assets/images/logos/{{ org[0] }}300.jpg" alt="{{ org[1].name }}">
                           </a>
                       </div>
                       {% endfor %}
