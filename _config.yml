@@ -13,9 +13,9 @@ description: >
   Climate Science Center
 github:
   #url: http://localhost:4000
-  url: http://jlblcc.github.io/northern-latitudes.github.io
+  url: https://jlblcc.github.io/nl-fork-example
 #baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jlblcc.github.io/northern-latitudes.github.io" # the base hostname & protocol for your site
+url: "https://jlblcc.github.io/nl-fork-example" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username:  northern-latitudes
 
