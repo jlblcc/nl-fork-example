@@ -30,7 +30,7 @@ layout: default
         </div>
         <div class="row">
             <div class="col-sm-6 col-md-5 col-lg-3 text-center">
-                <img class="map-globe" src="assets/images/globe_400.png" alt="Location on Globe">
+                <img class="map-globe" src="{{site.github.url}}/assets/images/globe_400.png" alt="Location on Globe">
             </div>
             <div class="col-sm-6 col-md-7 col-lg-9">
               <p class="small">
@@ -57,7 +57,7 @@ layout: default
                       {% for org in orgs %}
                       <div class="col-md-2">
                           <a class="thumbnail" data-mapid="{{ org[0] }}" href="{{ org[1].link }}">
-                              <img class="logo-300" src="/assets/images/logos/{{ org[0] }}300.jpg" alt="{{ org[1].name }}">
+                              <img class="logo-300" src="{{site.github.url}}/assets/images/logos/{{ org[0] }}300.jpg" alt="{{ org[1].name }}">
                           </a>
                       </div>
                       {% endfor %}
@@ -68,7 +68,7 @@ layout: default
                       {% for org in orgs %}
                       <div class="col-md-12 col-lg-6">
                           <a class="thumbnail" data-mapid="{{ org[0] }}" href="{{ org[1].link }}">
-                              <img class="logo-300" src="/assets/images/logos/{{ org[0] }}300.jpg" alt="{{ org[1].name }}">
+                              <img class="logo-300" src="{{site.github.url}}/assets/images/logos/{{ org[0] }}300.jpg" alt="{{ org[1].name }}">
                           </a>
                       </div>
                       {% endfor %}
